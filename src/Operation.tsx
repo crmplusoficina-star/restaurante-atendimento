@@ -41,7 +41,7 @@ function StaffOrder({ tab, close, run }: { tab: Comanda; close: () => void; run:
   </div></Modal>
 }
 export default function Operation() {
-  useEffect(() => { document.title = "BRASA 47 • Operação" }, [])
+  useEffect(() => { document.title = "BRASA 47 • Garçom / Atendente" }, [])
   const [role] = useState<Role>("atendimento")
   const [tabs, setTabs] = useState<Comanda[]>([])
   const [filter, setFilter] = useState("Todas")
